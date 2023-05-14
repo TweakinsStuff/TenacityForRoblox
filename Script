@@ -7,12 +7,12 @@ local GUI = Mercury:Create{
     Link = "https://github.com/deeeity/mercury-lib"
 }
 
-local Combat = GUI:Tab{
+local Tab = GUI:Tab{
 	Name = "Combat",
 	Icon = "rbxassetid://8569322835"
 }
 
-Combat:Button{
+Tab:Button{
 	Name = "Sprint",
 	Description = makes u sprint,
 	Callback = function() end
