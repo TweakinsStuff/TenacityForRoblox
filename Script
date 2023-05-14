@@ -1,12 +1,10 @@
-local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
-local GUI = Mercury:Create{
-    Name = "Mercury",
-    Size = UDim2.fromOffset(600, 400),
-    Theme = Mercury.Themes.Dark,
-    Link = "https://github.com/deeeity/mercury-lib"
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local gui = Library:create{
+    Theme = Library.Themes.Dark
 }
 
-local Tab = GUI:Tab{
-	Name = "Combat",
-	Icon = "rbxassetid://6001676839"
+local tab = gui:tab{
+    Icon = "rbxassetid://6034996695",
+    Name = "Aimbot"
 }
