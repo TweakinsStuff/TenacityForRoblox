@@ -8,12 +8,6 @@ local GUI = Mercury:Create{
 }
 
 local Tab = GUI:Tab{
-	Name = "Combat",
+	Name = "New Tab",
 	Icon = "rbxassetid://8569322835"
-}
-
-Tab:Button{
-	Name = "Sprint",
-	Description = makes u sprint,
-	Callback = function() end
 }
