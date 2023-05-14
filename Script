@@ -6,3 +6,14 @@ local GUI = Mercury:Create{
     Theme = Mercury.Themes.Dark,
     Link = "https://github.com/deeeity/mercury-lib"
 }
+
+local Combat = GUI:Tab{
+	Name = "Combat",
+	Icon = "rbxassetid://8569322835"
+}
+
+Combat:Button{
+	Name = "Sprint",
+	Description = makes u sprint,
+	Callback = function() end
+}
