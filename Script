@@ -15,7 +15,7 @@ local Tab = GUI:Tab{
 Tab:Button{
 	Name = "Sprint",
 	Description = AutoSprint,
-	Callback = function()-- Load the LuaSocket library
+	Callback = function(-- Load the LuaSocket library
 local socket = require("socket")
 
 -- Set the key code for left shift
@@ -35,5 +35,5 @@ keyboard:send(string.char(0x01, key_code, 0x01))
 while true do
   socket.sleep(repeat_interval / 1000)
   keyboard:send(string.char(0x01, key_code, 0x02))
-end end
+end)
 }
